@@ -1,4 +1,4 @@
-### OBS.: desenvolvido em Windows, utilizando Docker Toolbox e o Genymotion como emulador de Android
+#### OBS.: desenvolvido em Windows, utilizando Docker Toolbox e o Genymotion como emulador de Android
 
 ##### criar um container postgres
 docker run --name dbmeetapp -e POSTGRES_PASSWORD=<SET_PASSWORD> -p 5432:5432 -d postgres
@@ -27,3 +27,10 @@ yarn yarn start
 cd gostack-desafio\mobile
 
 yarn react-native run-android
+
+###### os repositórios com seus respectivos commits
+backend: https://github.com/jonatasbr/gostack-desafio-node
+
+frontend: https://github.com/jonatasbr/gostack-desafio-web
+
+mobile: https://github.com/jonatasbr/gostack-desafio-mobile
