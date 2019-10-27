@@ -28,7 +28,7 @@ cd gostack-desafio\mobile
 
 yarn react-native run-android
 
-###### os repositórios com seus respectivos commits
+##### os repositórios com seus respectivos commits
 backend: https://github.com/jonatasbr/gostack-desafio-node
 
 frontend: https://github.com/jonatasbr/gostack-desafio-web
