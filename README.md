@@ -13,6 +13,9 @@ cd gostack-desafio\backend
 
 yarn
 
+##### editar arquivo backend\\.env
+fixar valores correspondentes
+
 ##### para executar as migration
 yarn sequelize db:migrate
 
@@ -28,6 +31,10 @@ yarn queue
 cd gostack-desafio\frontend
 
 yarn yarn start
+
+##### editar arquivo mobile\src\config\ReactotronConfig.js
+se ambiente Windows, fixar o ip da máquina
+Reactotron.configure({host: 'XXX.XXX.XXX.XXX'})
 
 ##### para instalar dependências e iniciar aplicação mobile
 cd gostack-desafio\mobile
