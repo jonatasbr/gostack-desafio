@@ -13,6 +13,10 @@ cd gostack-desafio\backend
 
 yarn
 
+##### para executar as migration
+yarn sequelize db:migrate
+
+##### para executar aplicação backend
 yarn dev
 
 ##### para executar fila de e-mails
